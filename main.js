@@ -16,13 +16,13 @@ function calcular()
     
     if (isVacation)
         {
-            salida.innerHTML = "si duerme";
+            salida.innerHTML = "si duermes";
         }
     else{
         if(isWeekday){
             salida.innerHTML = "no puedes dormir";
         }else{
-            salida.innerHTML = "si duerme";
+            salida.innerHTML = "si duermes";
         }
     }
 }
